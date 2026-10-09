@@ -1,0 +1,58 @@
+@media (max-width: 700px) {
+    .box {
+        width: 92%;
+    }
+
+    .head,
+    .menu,
+    .sp,
+    .facts,
+    .test,
+    .whyin,
+    .for,
+    .foot {
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .card,
+    .fact,
+    .fbox,
+    .rev,
+    .txt,
+    .pics,
+    .whyt,
+    .flogo,
+    .col {
+        width: 100%;
+    }
+
+    .prod {
+        width: 44%;
+    }
+
+    .bld {
+        width: 100%;
+        position: static;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    label {
+        width: 100%;
+    }
+    .planm{
+        width: 300px;
+        margin-top: 30px;
+    }
+    .inm{
+        width: 320px;
+    }
+}
